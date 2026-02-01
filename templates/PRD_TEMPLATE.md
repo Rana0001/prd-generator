@@ -48,6 +48,10 @@
 
 > _[Write your answer here]_
 
+**Q: CI/CD Requirements: Do you need automated CI/CD pipelines? (e.g., "Yes, GitHub Actions for linting/tests on PR", "No, manual deploy is fine")**
+
+> _[Write your answer here]_
+
 ---
 
 ## 4. User Stories & Flows

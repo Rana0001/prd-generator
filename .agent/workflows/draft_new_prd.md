@@ -29,8 +29,9 @@ This workflow helps you create a robust Product Requirement Document (PRD) by in
     - _Constraint_: **Strictly prioritize Free Tier / Open Source** (e.g., Supabase Free Tier, Vercel Hobby, PostgreSQL, SQLite, etc.).
     - _Reasoning_: Briefly explain why this stack fits their goal and is cost-effective.
 3.  **Ask**: "Does this tech stack work for you? Do you have other preferences?"
-4.  **Ask**: "Where do you plan to deploy this? (e.g., Vercel, AWS, App Stores)"
-5.  **Wait** for user approval/edits.
+4.  **Ask**: "Where do you plan to deploy this? (e.g., Vercel, AWS)"
+5.  **Ask**: "Do you need a CI/CD pipeline setup? (e.g., GitHub Actions)"
+6.  **Wait** for user approval/edits.
 
 ## 4. User Flows & Design
 
