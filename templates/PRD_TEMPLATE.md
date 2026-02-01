@@ -26,7 +26,7 @@
 
 ---
 
-## 3. Tech Stack & Preferences
+## 3. Technical Architecture & Stack
 
 **Q: What technologies MUST we use? (e.g., Next.js, Python, PostgreSQL, Tailwind)**
 
@@ -37,6 +37,14 @@
 > _[Write your answer here]_
 
 **Q: If you are unsure, describe your performance or scale needs. NOTE: We will default to recommending Free Tier / Open Source solutions unless specified otherwise.**
+
+> _[Write your answer here]_
+
+**Q: Brief description of the architecture or data flow (e.g., "Client sends image to API -> API processes it -> saves to DB").**
+
+> _[Write your answer here]_
+
+**Q: Deployment Strategy: Where and how do you plan to deploy? (e.g., "Vercel for Frontend, AWS for Backend", "App Store & Play Store", "Docker containers")**
 
 > _[Write your answer here]_
 
@@ -66,7 +74,19 @@
 
 ---
 
-## 6. Agentic Needs (Automation & Intelligence)
+## 6. Strategic Planning
+
+**Q: Delivery Roadmap: How do you want to phase the development? (e.g., "Phase 1: MVP with Login & Basic Create", "Phase 2: Payments & Teams")**
+
+> _[Write your answer here]_
+
+**Q: Beta Plan: How do you plan to launch or test? (e.g., "Internal test with 5 users first", "Waitlist landing page")**
+
+> _[Write your answer here]_
+
+---
+
+## 7. Agentic Needs (Automation & Intelligence)
 
 **Q: What external tools, APIs, or data does the AI need access to? (e.g., "Needs to search the web", "Needs access to GitHub repo", "Needs to query a SQL DB")**
 

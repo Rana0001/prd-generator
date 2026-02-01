@@ -29,7 +29,8 @@ This workflow helps you create a robust Product Requirement Document (PRD) by in
     - _Constraint_: **Strictly prioritize Free Tier / Open Source** (e.g., Supabase Free Tier, Vercel Hobby, PostgreSQL, SQLite, etc.).
     - _Reasoning_: Briefly explain why this stack fits their goal and is cost-effective.
 3.  **Ask**: "Does this tech stack work for you? Do you have other preferences?"
-4.  **Wait** for user approval/edits.
+4.  **Ask**: "Where do you plan to deploy this? (e.g., Vercel, AWS, App Stores)"
+5.  **Wait** for user approval/edits.
 
 ## 4. User Flows & Design
 
@@ -37,14 +38,21 @@ This workflow helps you create a robust Product Requirement Document (PRD) by in
 2.  **Ask**: "Do you have any specific design preferences? (e.g., Minimalist, Dashboard-heavy, Dark mode)"
 3.  **Wait** for user input.
 
-## 5. Generate PRD
+## 5. Strategic Planning
+
+1.  **Ask**: "How do you want to phase the delivery? (e.g., MVP features vs Phase 2)"
+2.  **Ask**: "What is your Beta Launch plan? (e.g., Internal users first?)"
+3.  **Wait** for user input.
+
+## 6. Generate PRD
 
 1.  **Compile** all the gathered information.
 2.  **Create** a new file `PRD.md` (or `docs/PRD.md`) using the standard template format.
 3.  **Fill** in all sections:
-    - **Overview**: From Step 1 (including App/Website/Both distinction).
-    - **Key Features**: From Step 2 (Finalized list).
-    - **Tech Stack**: From Step 3 (Finalized stack).
+    - **Overview**: From Step 1.
+    - **Key Features**: From Step 2.
+    - **Technical Architecture & Stack**: From Step 3.
     - **User Flows**: From Step 4.
-    - **Agentic Needs**: Infer these based on the features (e.g., if "Search" is a feature, add "Web Search Skill").
+    - **Strategic Planning**: From Step 5.
+    - **Agentic Needs**: Infer these based on the gathered info.
 4.  **Notify**: "I have drafted your PRD at `PRD.md`. Please review it."
