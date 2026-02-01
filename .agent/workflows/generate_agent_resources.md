@@ -19,18 +19,30 @@ This workflow guides the agent to read a filled `templates/PRD_TEMPLATE.md` and 
 
 ## 3. Generate UI/UX & Flows
 
-1. Create a **Mermaid.js diagram** visualizing the core user flows (e.g., Login -> Dashboard -> Create Item).
-2. Write a text-based **Wireframe Description** for key screens, describing layout, components, and interactions.
-3. Save this to `docs/USER_FLOWS.md` (create directory if needed).
+1. **Read**: The 15 Golden UI/UX Principles in `.agent/ui_ux_principles.md`.
+2. Create a **Mermaid.js diagram** visualizing the core user flows (e.g., Login -> Dashboard -> Create Item).
+3. Write a text-based **Wireframe Description** for key screens, describing layout, components, and interactions.
+4. **Constraint**: Ensure all designs strictly adhere to the 15 Golden Principles (especially Clarity, Speed, and Mobile-First).
+5. Save this to `docs/USER_FLOWS.md` (create directory if needed).
 
 ## 4. Generate Rules
 
 1. Extract strict constraints and guidelines from the "Rules/Guidelines" and "Tech Stack" sections.
-2. Create or Update `.agent/rules.md`.
-3. Format:
+2. **Mandatory**: Include strict coding standards emphasizing **Clean Architecture**, **SOLID principles**, and **DRY (Don't Repeat Yourself)**.
+3. Create or Update `.agent/rules.md`.
+4. Format:
 
    ```markdown
    # Project Rules
+
+   ## Architecture & Style
+
+   - [Architecture]: Follow Clean Architecture patterns (Logic separated from UI/Infra).
+   - [Principles]: Strictly adhere to SOLID and DRY principles.
+   - [UI/UX]: Follow the 15 Golden Principles (Clarity, Speed, Consistency, etc.).
+   - [Style]: <Language Specific Style (e.g. Airbnb Style Guide)>
+
+   ## Tech Stack & Constraints
 
    - [Tech Stack]: Must use <Stack>.
    - [Constraint]: <Constraint>.

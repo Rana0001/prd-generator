@@ -22,6 +22,7 @@ Use this workflow to start a new project. The agent will:
 
 - Interview you about your product idea.
 - Suggest features and open-source tech stacks.
+- Plan your **Strategic Delivery** (Phases, Beta Launch) and **Deployment**.
 - Draft a `PRD.md` file for you.
 
 ### 2. Generate Agent Resources
@@ -35,7 +36,9 @@ Once you have a filled `templates/PRD_TEMPLATE.md` (or the one generated from th
 - Suggest missing technical features.
 - Generate specific **Skills** (`skills/*.md`) tailored to your project.
 - Generate **Workflows** (`.agent/workflows/*.md`) for complex processes.
-- Set up **Rules** (`.agent/rules.md`) for coding standards.
+- Set up **Rules** (`.agent/rules.md`) that enforce:
+  - **Clean Architecture, SOLID, and DRY** principles.
+  - **15 Golden UI/UX Principles** (Clarity, Speed, Accessibility, etc.).
 
 ## Project Structure
 
